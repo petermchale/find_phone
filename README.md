@@ -13,7 +13,7 @@ this [Jupyter Notebook](http://nbviewer.jupyter.org/github/petermchale/find_phon
 On a Macbook Pro, set up the following `conda` environment:
 
 ```
-conda create -n find_phone python=2.7 scikit-learn Pillow matplotlib ipython-notebook
+conda create -n find_phone python=2.7 pandas scikit-learn Pillow matplotlib ipython-notebook
 ```
 
 ## Usage 
