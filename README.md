@@ -4,7 +4,7 @@ Object-detection algorithm
 Python 2.x code to compute the 
 location of a phone on a floor from a single RGB camera image. 
 
-### Usage 
+## Usage 
 
 Train the object-detection model using:
 ```
