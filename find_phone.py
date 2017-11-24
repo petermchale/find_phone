@@ -62,5 +62,5 @@ def scan(image_path, show_image=True):
 
 if __name__ == '__main__':
 
-    x_predicted, y_predicted = scan(image_path=sys.argv[1], show_image=False)
+    x_predicted, y_predicted = scan(image_path=sys.argv[1], show_image=True)
     print x_predicted, y_predicted

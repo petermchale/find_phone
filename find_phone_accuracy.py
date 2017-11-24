@@ -4,7 +4,7 @@ from find_phone import scan
 import cPickle
 
 
-def accuracy(folder='find_phone'):
+def accuracy(folder='data'):
 
     df = open_table(folder)
 
@@ -28,8 +28,8 @@ def accuracy(folder='find_phone'):
         else:
             number_false_predictions += 1
 
-    print 'accuracy of object detection algorithm = ', \
-        number_correct_predictions / float(number_correct_predictions + number_false_predictions)
+    print 'accuracy of object detection algorithm = %.1f' % \
+          (number_correct_predictions * 100 / float(number_correct_predictions + number_false_predictions)), '%'
     print 'number of testing examples = ', len(image_paths_testing)
 
 
