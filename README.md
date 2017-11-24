@@ -5,6 +5,7 @@ More detailed description can be found in
 this [Jupyter Notebook](). 
 
 <img src='data/detected_phone.png' width='600'>
+
 ## Installation 
 
 I set up a `conda` environment on my Macbook Pro as follows:
