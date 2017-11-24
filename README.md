@@ -4,7 +4,7 @@ location of a phone on a floor from a single RGB camera image.
 The approach was to first build a phone classifier and
 then use it to locate the phone via a sliding-window algorithm. 
 More details can be found in 
-this [Jupyter Notebook](). 
+this [Jupyter Notebook](http://nbviewer.jupyter.org/github/petermchale/find_phone/blob/master/analysis.ipynb). 
 
 <img src='data/detected_phone.png' width='600'>
 
