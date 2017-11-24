@@ -1,6 +1,11 @@
 Object-detection algorithm
 ---
 
+Python 2.x code to compute the 
+location of a phone on a floor from a single RGB camera image. 
+
+### Usage 
+
 Train the object-detection model using:
 ```
 python train_phone_finder.py ./data 
