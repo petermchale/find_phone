@@ -8,12 +8,10 @@ this [Jupyter Notebook]().
 
 ## Installation 
 
-I set up a `conda` environment on my Macbook Pro as follows:
+On a Macbook Pro, set up the following `conda` environment:
 
 ```
-conda create -n cv python=2.7 opencv Pillow matplotlib pandas ipython-notebook
-conda install -c conda-forge tensorflow
-conda install scikit-learn
+conda create -n find_phone python=2.7 scikit-learn Pillow matplotlib ipython-notebook
 ```
 
 ## Usage 
