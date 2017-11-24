@@ -2,7 +2,6 @@
 
 Python 2.x code to compute the 
 location of a phone on a floor from a single RGB camera image. 
-
 <img src='data/detected_phone.png' width='600'>
 
 ## Usage 
