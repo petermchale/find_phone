@@ -17,5 +17,5 @@ which will print to the terminal
 the normalized coordinates of the phone in the test image and 
 show the image with a box around the detected phone:
 
-<img src='data/detected_phone.png'>
+<img src='data/detected_phone.png', width='600'>
 ![](data/detected_phone.png)
