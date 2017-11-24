@@ -37,3 +37,9 @@ python find_phone.py ./data/x.jpg
 which will print to the terminal 
 the normalized coordinates of the phone in the test image and 
 show the image with a box around the detected phone.
+
+Use 
+```
+python find_phone_accuracy.py
+```
+to quantitively assess the accuracy of the phone-finding algorithm.
