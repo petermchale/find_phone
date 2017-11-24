@@ -1,7 +1,20 @@
 # Object-detection algorithm
 Python 2.x code to compute the 
 location of a phone on a floor from a single RGB camera image. 
+More detailed description can be found in 
+this [Jupyter Notebook](). 
+
 <img src='data/detected_phone.png' width='600'>
+## Installation 
+
+I set up a `conda` environment on my Macbook Pro as follows:
+
+```
+conda create -n cv python=2.7 opencv Pillow matplotlib pandas ipython-notebook
+conda install -c conda-forge tensorflow
+conda install scikit-learn
+```
+
 ## Usage 
 
 Train the object-detection model using:
