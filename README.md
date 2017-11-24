@@ -20,10 +20,14 @@ Train the object-detection model using:
 ```
 python train_phone_finder.py ./data 
 ```
+
 The data set consists of approximately 100 jpeg images of the 
 floor from a factory building with a phone on it. 
 There is a file named `labels.txt` that contains 
 normalized coordinates of a phone for each picture.
+The command above will show a collection of thumbnail images, 
+some of which contain a phone, and some of which don't,
+ along with the predicted label ('contains phone' or 'does not contain phone'). 
 
 Test the model using: 
 ```
