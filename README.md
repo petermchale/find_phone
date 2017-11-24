@@ -1,5 +1,7 @@
 # Object-detection algorithm
 
+<img src='data/detected_phone.png' width='600'>
+
 Python 2.x code to compute the 
 location of a phone on a floor from a single RGB camera image. 
 
@@ -15,6 +17,4 @@ python find_phone.py ./data/x.jpg
 ```
 which will print to the terminal 
 the normalized coordinates of the phone in the test image and 
-show the image with a box around the detected phone:
-
-<img src='data/detected_phone.png' width='600'>
+show the image with a box around the detected phone.
