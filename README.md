@@ -1,3 +1,6 @@
+Object-detection algorithm
+---
+
 Train the object-detection model using:
 ```
 python train_phone_finder.py ./data 
