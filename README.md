@@ -1,6 +1,8 @@
 # Object-detection algorithm
 Python 2.x code to compute the 
 location of a phone on a floor from a single RGB camera image. 
+The approach was to first build a phone classifier and
+then use it to locate the phone via a sliding-window algorithm. 
 More detailed description can be found in 
 this [Jupyter Notebook](). 
 
