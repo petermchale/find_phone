@@ -26,7 +26,7 @@ floor from a factory building with a phone on it.
 There is a file named `labels.txt` that contains 
 normalized coordinates of a phone for each picture.
 The command above will show a collection 
-of 'cut-outs' from the image data set,  
+of 'cut-outs' from the image data set, 
 some of which contain a phone, and some of which don't,
  along with the predicted label ('contains phone' or 'does not contain phone'). 
 
